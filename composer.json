@@ -1,0 +1,51 @@
+{
+  "name": "Lambelcebur/mvc-basic-tools",
+  "description": "Lam tools for controllers,views,helpers, plugins and more ...",
+  "keywords": [
+    "Doctrine",
+    "ORM",
+    "View",
+    "ViewHelper",
+    "Controller",
+    "Controller Plugin",
+    "ORM Entity Traits",
+    "Gedmo",
+    "Query",
+    "Repository",
+    "Validator"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.1",
+    "ext-iconv": "*",
+    "ext-intl": "*",
+    "laminas/laminas-mvc": "^3.0.1",
+    "laminas/laminas-mvc-form": "^1.0",
+    "laminas/laminas-mvc-i18n": "^1.0",
+    "laminas/laminas-paginator": "^2.0",
+    "doctrine/doctrine-module": "2.*",
+    "doctrine/doctrine-orm-module": "2.*"
+  },
+  "suggest": {
+    "Lambelcebur/doctrine-orm-fast-api": "Quickly create an automatic API CRUD with your Doctrine ORM connection",
+    "Lambelcebur/doctrine-orm-resources": "DoctrineORM Resources to Lam",
+    "Lambelcebur/materialize-css-helper": "MaterializeCss Helper integration to Lam",
+    "Lambelcebur/mongodb-logger": "MongoDb Logger integration to Lam",
+    "Lambelcebur/oauth2-social-client": "Lam extends module from thephpleague/oauth2-client",
+    "doctrine/doctrine-orm-module": "DoctrineORMModule integrates Doctrine 2 ORM with Zend Framework quickly and easily."
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "David Garcia",
+      "email": "garcia.gordo.david@gmail.com",
+      "homepage": "https://github.com/Belcebur"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "LamBelcebur\\MvcBasicTools\\": "src/"
+    }
+  }
+}
