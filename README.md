@@ -1,8 +1,8 @@
-# Lambelcebur-mvc-basic-tools
+# lambelcebur-mvc-basic-tools
 Tools for views and controllers
 
 ## See
-- [https://packagist.org/explore/?query=Lambelcebur](https://packagist.org/explore/?query=Lambelcebur)
+- [https://packagist.org/explore/?query=lambelcebur](https://packagist.org/explore/?query=lambelcebur)
 
 ## Installation
 
@@ -10,7 +10,7 @@ Installation of this module uses composer. For composer documentation, please re
 [getcomposer.org](http://getcomposer.org/).
 
 ```sh
-composer require Lambelcebur/mvc-basic-tools
+composer require lambelcebur/mvc-basic-tools
 ```
 
 Then add `LamBelcebur\MvcBasicTools` to your `config/application.config.php`
